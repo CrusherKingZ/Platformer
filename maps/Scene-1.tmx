@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.4" tiledversion="2020.10.30" orientation="orthogonal" renderorder="right-down" width="10" height="10" tilewidth="64" tileheight="64" infinite="0" nextlayerid="3" nextobjectid="7">
+ <editorsettings>
+  <export target="Scene-1.lua" format="lua"/>
+ </editorsettings>
+ <tileset firstgid="1" source="tilesets.tsx"/>
+ <layer id="1" name="suelo" width="10" height="10">
+  <data encoding="csv">
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,0,0,0,0,0,0,
+0,0,0,0,59,59,59,0,0,0,
+73,0,0,0,73,73,0,0,0,0,
+4,4,1,1,4,4,1,1,1,1,
+18,4,4,18,4,4,4,4,18,18,
+4,18,18,18,18,18,18,18,18,19
+</data>
+ </layer>
+ <objectgroup color="#cb0000" id="2" name="solid" visible="0">
+  <properties>
+   <property name="collidable" type="bool" value="true"/>
+  </properties>
+  <object id="3" x="1.43337" y="454.379" width="634.983" height="55.9014"/>
+  <object id="6" x="265.174" y="329.675" width="170.571" height="11.467"/>
+ </objectgroup>
+</map>
